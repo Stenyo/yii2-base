@@ -1,0 +1,21 @@
+<TaskOptions>
+  <TaskOptions>
+    <option name="arguments" value="yii stubs api/config/main.php backend/config/main.php console/config/main.php common/config/main.php frontend/config/main.php" />
+    <option name="checkSyntaxErrors" value="true" />
+    <option name="description" />
+    <option name="exitCodeBehavior" value="ERROR" />
+    <option name="fileExtension" value="php" />
+    <option name="immediateSync" value="true" />
+    <option name="name" value="Stubs" />
+    <option name="output" value="$Projectpath$/vendor/Yii.php" />
+    <option name="outputFilters">
+      <array />
+    </option>
+    <option name="outputFromStdout" value="false" />
+    <option name="program" value="C:/xampp/php/php.exe" />
+    <option name="scopeName" value="All Places" />
+    <option name="trackOnlyRoot" value="false" />
+    <option name="workingDir" value="$ProjectFileDir$" />
+    <envs />
+  </TaskOptions>
+</TaskOptions>

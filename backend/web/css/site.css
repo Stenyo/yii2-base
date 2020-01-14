@@ -1,0 +1,188 @@
+form div.required label.control-label:after {
+    content: " * ";
+    color: red;
+}
+
+.clickable, .table-produtos tr {
+    cursor: pointer;
+}
+
+.primeiros-passos h3 {
+    font-size: 24px;
+}
+
+/* Fixies */
+.checkbox label {
+    padding-left: 0;
+}
+
+.seven-cols label {
+    font-size: 11px;
+}
+
+body {
+    color: #555299;
+}
+
+a {
+    color: #3c316b;
+}
+
+@media (min-width: 768px) {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+        width: 100%;
+        *width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+        width: 14.285714285714285714285714285714%;
+        *width: 14.285714285714285714285714285714%;
+    }
+}
+
+/**
+ *  The following is not really needed in this case
+ *  Only to demonstrate the usage of @media for large screens
+ */
+@media (min-width: 1200px) {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+        width: 14.285714285714285714285714285714%;
+        *width: 14.285714285714285714285714285714%;
+    }
+}
+
+.table.impostos {
+    border: inset 2px;
+}
+
+.table.impostos th {
+    font-size: 12px;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.table.impostos td {
+    border-top: none;
+    padding-top: 0;
+    text-align: right;
+}
+
+
+.modal-dialog {
+    max-width: 800px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.produto-modal .check label {
+    font-size: 12px;
+}
+
+.produto-modal .calcular-automaticamente {
+    padding-top: 30px;
+}
+
+.produto-seletor {
+    padding-top: 20px;
+}
+
+.add-produto {
+    display: none;
+}
+
+/* template */
+
+h1 {
+    color: #555299;
+}
+
+.template-color {
+    background-color: #555299 !important;
+
+}
+
+.btn {
+    margin-bottom: 5px;
+}
+
+.btn.btn-action {
+    background: #b8c7ce;
+    color: #555299;
+}
+
+.btn.btn-action:hover {
+    background: #9ebac5;
+}
+
+.btn.btn-success {
+    background: #605ca8;
+}
+
+.btn.btn-success:hover {
+    background: #555299;
+}
+
+.btn.btn-success:focus, .btn.btn-success:active, .open > .dropdown-toggle:hover, .open > .dropdown-toggle:focus, .open > .dropdown-toggle:active {
+    background: #552899 !important;
+}
+
+.box {
+    padding: 25px;
+}
+
+.tab-pane {
+    border: 1px solid #ddd;
+    border-top-color: transparent;
+    padding: 20px;
+}
+
+.main-footer {
+    color: #555299;
+    padding: 40px;
+}
+
+/* fixies */
+.select2-container--krajee .select2-selection--single {
+    padding: 10px 24px 6px 12px !important;
+}
+
+textarea {
+    resize: none;
+}
+
+.check {
+    padding-left: 40px;
+}
+
+.outter-box {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.inner-box {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #555555;
+    font-size: 14px;
+    outline: 0;
+    padding: 20px;
+}
+
+/* configuracao */
+.configuracao .main-footer {
+    margin-left: 0;
+}
+
+.configuracao .empresa-form {
+    padding: 20px;
+}

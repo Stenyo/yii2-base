@@ -1,0 +1,64 @@
+{
+  "name": "comeia/baseYii",
+  "description": "Base Yii",
+  "keywords": [
+    "yii2",
+    "framework",
+    "advanced",
+    "project template"
+  ],
+  "homepage": "http://comeia.org",
+  "type": "project",
+  "license": "private",
+  "support": {
+    "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+    "forum": "http://www.yiiframework.com/forum/",
+    "wiki": "http://www.yiiframework.com/wiki/",
+    "irc": "irc://irc.freenode.net/yii",
+    "source": "https://github.com/yiisoft/yii2"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "yiisoft/yii2": ">=2.0.15",
+    "yiisoft/yii2-bootstrap": "*",
+    "yiisoft/yii2-swiftmailer": "*",
+    "dmstr/yii2-adminlte-asset": "2.*",
+    "kartik-v/yii2-widgets": "3.*",
+    "kartik-v/yii2-grid": "3.*",
+    "kartik-v/yii2-datecontrol": "1.*",
+    "kartik-v/yii2-mpdf": "v1.0.5",
+    "conquer/gii-modal": "^1.1",
+    "yiibr/yii2-br-validator": "^1.0",
+    "kartik-v/yii2-number": "^1.0.3",
+    "yii2mod/yii2-sweet-alert": "^1.3",
+    "kartik-v/yii2-money": "^1.2",
+    "kartik-v/yii2-icons": "^1.4.5",
+    "kartik-v/yii2-date-range": "^1.7",
+    "kartik-v/yii2-widget-select2": "^2.1@dev",
+    "filsh/yii2-oauth2-server": "~2.0",
+  },
+  "require-dev": {
+    "codeception/codeception": "*",
+    "codeception/specify": "0.4.5",
+    "yiisoft/yii2-faker": "*",
+    "bazilio/yii2-stubs-generator": "1.0.0",
+    "codeception/base": "^2.4.0",
+    "phpunit/phpunit": "~6.5.5",
+    "codeception/verify": "*",
+    "symfony/browser-kit": "*",
+    "yiisoft/yii2-debug": "*",
+    "yiisoft/yii2-gii": "*"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    }
+  }
+}
